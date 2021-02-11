@@ -12,7 +12,7 @@ void comandomkdisk::crearfichero(comandomkdisk *disco)
 {
     mbr prueba;
     FILE *arch;
-    arch=fopen(disco->path.c_str(),"wb"); //no sirve todavia
+    arch=fopen(disco->path.c_str(),"wb");
     if (arch==NULL)
         exit(1);
     //simulo un KB
